@@ -1,0 +1,35 @@
+
+
+.formulaire-creation-compte-dialog-container{
+
+  .formulaire-creation-compte-header {
+      // background-color: var(--main-color-dash_2);
+      border-bottom: 1px solid var(--main-color-dash_2);
+      // padding: 0rem 0.2rem 0.5rem 0.02rem;
+      color: var(--main-color-dash_2);
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      .avatar-compte{
+        color: #fff;
+        background-color: var(--main-color-dash_2);
+      }
+      span{
+        font-size: 1.2rem;
+      }
+
+    }
+
+    // .formulaire-creation-compte-footer{
+    //   display: flex;
+    //   justify-content: space-between;
+    //   align-items: center;
+
+
+    // }
+}
+
+.button-save-compte-form {
+  background-color: var(--main-color-dash_2);
+
+}

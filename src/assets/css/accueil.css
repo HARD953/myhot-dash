@@ -1,0 +1,26 @@
+.accueil-body{
+
+}
+
+.accueil-body-card-accueil-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: -4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+    align-items: center;
+}
+
+
+.accueil-cards-reservations-container{
+    
+}
+
+
+
+@media screen and (max-width:600px){
+    .accueil-body-card-accueil-container{
+        grid-template-columns: 1fr;
+    }
+}

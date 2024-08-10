@@ -1,0 +1,15 @@
+.header-content-sub h3,.header-content-sub p{
+  position: relative;
+	z-index: 1;
+  color: var(--main-color-dash_2);
+}
+
+
+/* .header-content-sub img{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+    width: 100%;
+	z-index: 0;
+} */

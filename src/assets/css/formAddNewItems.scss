@@ -1,0 +1,36 @@
+
+
+.formulaire-creation-dialog-container{
+
+  .formulaire-creation-header {
+      // background-color: var(--main-color-dash_2);
+      // border-bottom: 1px solid var(--main-color-dash_2);
+      padding-bottom: 3px;
+      color: var(--main-color-dash_2);
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      i{
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: var(--main-color-dash_2);
+        border: 1px solid var(--main-color-dash_2);
+        color: #fff;
+      }
+      span{
+        font-size: 1.68rem;
+      }
+    }
+
+    .formulaire-creation-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .button-save-form{
+        background-color: var(--main-color-dash_2);
+
+      }
+
+    }
+}

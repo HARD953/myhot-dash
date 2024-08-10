@@ -1,0 +1,146 @@
+:root {
+  --main-color-dash: #48bef0;
+  --main-color-dash_2: #0a1442;
+  --main-color-dash_3: #0a14426c;
+  /* --main-color-dash : #0a1442; */
+  --main-color-dash-hover: #88acbb;
+  /* --myhot-primary-color:#0a1442; */
+}
+
+.text-color-myhot-primary{
+  color: var(--main-color-dash_2) !important;
+}
+
+.header-content-page {
+  /* background-color: var(--main-color-dash); */
+  padding-bottom: 7rem;
+  padding-top: 1rem;
+}
+
+/* navbar style*/
+.navbar-item-component {
+  color: #000 !important;
+  transition: all ease-in-out 300ms;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all ease-in-out 300ms;
+  -moz-transition: all ease-in-out 300ms;
+  -ms-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+}
+
+.navbar-item-component a svg {
+  color: var(--main-color-dash_3) !important;
+}
+
+.navbar-item-component-selected {
+  background-color: var(--main-color-dash_2);
+  color: #fff !important;
+}
+.navbar-item-component-selected.navbar-item-component a svg {
+  color: #fff !important;
+}
+
+.navbar-item-component:hover {
+  background-color: var(--main-color-dash_3);
+  color: #fff !important;
+}
+
+/* navbar style*/
+
+.myhot_zindex_0 {
+  position: relative;
+  z-index: 0 !important;
+}
+
+.myhot_zindex_1 {
+  position: relative;
+  z-index: 1 !important;
+}
+
+.myhot_zindex_2 {
+  position: relative;
+  z-index: 2 !important;
+}
+
+.myhot_zindex_3 {
+  position: relative;
+  z-index: 3 !important;
+}
+
+.button-save-form {
+  background-color: var(--main-color-dash_2);
+}
+
+.bottom_bar_styled {
+  height: 5px;
+  width: 6rem;
+  background-color: var(--main-color-dash_2);
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* tabPanel */
+.p-tabview-nav-container {
+  background: transparent;
+}
+
+.p-tabview-nav-container .p-tabview-nav-content {
+  background: transparent;
+}
+
+.p-tabview-nav-container .p-tabview-nav-content .p-tabview-nav {
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.p-tabview-nav-container
+  .p-tabview-nav-content
+  .p-tabview-nav
+  li.p-unselectable-text {
+  background: #fff !important;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+/* Toutes les nav li */
+.p-tabview-nav-container
+  .p-tabview-nav-content
+  .p-tabview-nav
+  a.p-tabview-nav-link {
+  background: #fff;
+  margin: 0;
+  text-decoration: none;
+  color: var(--main-color-dash_2);
+}
+
+/* La nav li selectionner */
+.p-tabview-nav-container
+  .p-tabview-nav-content
+  .p-tabview-nav
+  .p-highlight
+  a.p-tabview-nav-link {
+  background: var(--main-color-dash_2);
+  color: #fff;
+  margin: 0;
+  text-decoration: none;
+  border: 0;
+}
+
+.p-tabview-nav-container
+  .p-tabview-nav-content
+  .p-tabview-nav
+  .p-tabview-selected {
+  background: green;
+}
+
+.p-tabview-panels {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}

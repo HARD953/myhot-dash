@@ -1,0 +1,34 @@
+.add_etablissement{
+
+}
+
+.add_etablissement__header{
+
+}
+
+
+.add_etablissement__header .add_etablissement__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add_etablissement__header .add_etablissement__img img{
+    height: 250px;
+    width: 250px;
+}
+
+.add_etablissement__title{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--main-color-dash_2);
+    margin-bottom: 3rem;
+
+}
+
+
+.add_etablissement__button{
+    background:var(--main-color-dash_2);
+}

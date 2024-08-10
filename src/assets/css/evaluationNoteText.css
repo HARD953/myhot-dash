@@ -1,0 +1,31 @@
+.evaluation_note_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 25rem;
+}
+
+.evaluation_note_text__text p{
+  font-size: 16px;
+  color: #413e3e;
+}
+
+
+.evaluation_note_text__note{
+    padding: 1rem;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 2px solid var(--main-color-dash_2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evaluation_note_text__note p{
+    font-weight: bold;
+    color: var(--main-color-dash_2);
+    margin: 0;
+    font-size: 25px;
+}

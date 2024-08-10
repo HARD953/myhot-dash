@@ -1,0 +1,14 @@
+.card_icon_title_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_icon_title_text__numbre_container{
+  /* background-color: var(--main-color-dash_3); */
+  /* border-radius: 50%; */
+  padding: 1.5rem 2rem;
+  color:  var(--main-color-dash_2);
+}

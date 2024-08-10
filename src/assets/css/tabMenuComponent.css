@@ -1,0 +1,37 @@
+
+
+.tab-menu-component .p-tabmenu.p-component{
+    border-radius: 1rem !important;
+    -webkit-border-radius: 1rem !important;
+    -moz-border-radius: 1rem !important;
+    -ms-border-radius: 1rem !important;
+    -o-border-radius: 1rem !important;
+}
+
+.tab-menu-component .p-tabmenu.p-component ul.p-tabmenu-nav .p-tabmenuitem {
+   
+    border-radius: 4rem !important;
+    /* margin-bottom: 1rem; */
+}
+.tab-menu-component .p-tabmenu.p-component .p-tabmenu-nav li{
+   
+    /* margin-bottom: 1rem; */
+}
+
+.tab-menu-component .p-tabmenu.p-component .p-tabmenu-nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+ .tab-menu-component{
+
+ }
+
+ .tab-menu-component{
+
+ }
+ 
